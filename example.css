@@ -37,7 +37,7 @@ h2{
     font-family: 'Raleway', sans-serif;
     font-size: 40px; /* Adjust the size as needed */
     font-weight: bold; /* Makes the font thicker */ 
-}
+}   
 p1{
     font-size: 30px;
 }
@@ -47,5 +47,6 @@ p2{
 .border {
     border: solid 5px rgb(0, 0, 0);
    }
+
 
 
