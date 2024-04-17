@@ -1,18 +1,41 @@
 <html>
-    <head>
-        <title>Home Page</title>
-        <link type="text/css" href="example.css" rel="stylesheet"/>
-         <!-- Link to Raleway font -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"> <!--adding a different font-->
-    </head>
+<head>
+    <title>Home Page</title>
+    <link type="text/css" href="example.css" rel="stylesheet"/>
+    <!-- Link to Raleway font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway&display=swap">
+    <!-- Adding a different font -->
+    <style>
+        .container {
+            display: flex; /* Use flexbox layout */
+        }
+        .paragraph {
+            flex: 1; /* Allow the paragraph to grow and shrink as needed */
+            padding: 20px; /* Add some padding for spacing */
+        }
+        .image {
+            flex: 1; /* Allow the image to grow and shrink as needed */
+            padding: 20px; /* Add some padding for spacing */
+        }
+    </style>
+</head>
 
-    <body>
-        <div class="navbar">
-            <a class="nav-option" href="index.html">Home</a>
-            <a class="nav-option" href="about.html">About</a>
-            <a class="nav-option" href="Interests.html">Projects</a>
+<body>
+    <div class="navbar">
+        <a class="nav-option" href="index.html">Home</a>
+        <a class="nav-option" href="about.html">About</a>
+        <a class="nav-option" href="Interests.html">Projects</a>
+    </div>
+    <h1>Who Am I?</h1>
+    <div class="container">
+        <div class="paragraph">
+            <h2>Hi! My name is Dawit Kasy, and I am a freshmen at Quinnipiac University studying Computer Science.</h2>
+            <h2>Education</h2>
+            <p1>I graduated from Mountain Mission School</p1>
         </div>
-        <center><h1>Who Am I?<br></h1><center>
-            </center><h2>Hi! My name is Dawit Kasy, and I am a freshmen at Quinnipiac University studying Computer Science.</h2><center></center>
-    </body>
+        <div class="image">
+            <img src="./images/9FFFBF1C-FB4F-47FC-A47B-8DA506688664.jpeg" alt="When I visited North Carolina" style="width:300px;height:500px;">
+        </div>
+    </div>
+</body>
 </html>
