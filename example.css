@@ -48,5 +48,31 @@ p2{
     border: solid 5px rgb(0, 0, 0);
    }
 
+.paragraph {
+    flex: 1; /* Allow the paragraph to grow and shrink as needed */
+    padding: 20px; /* Add some padding for spacing */
+}
+.image {
+    padding: 20px; /* Add some padding for spacing */
+}
+.image img {
+    width: 400px;
+     height: auto;
+     display: block;
+     margin-bottom: 200px;
+ }
+.container {
+    display: flex; /* Use flexbox layout */
+}
+.image2 img {
+    width: 400px;
+     height: auto;
+     display: block;
+     margin-bottom: 200px;
+ }
+ .small-margin img {
+    margin-bottom: 600px; /* Decreased margin for last two images */
+}
+
 
 
